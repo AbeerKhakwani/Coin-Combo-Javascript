@@ -24,5 +24,9 @@ describe('coinCombination', function() {
     it("Takes in value of 128 and return two quarters", function(){
         expect(coinCombination(128)).to.equal("5 Quarter 3 Penny");
     });
+    it("Takes in value of 4 and returns 4 pennies", function(){
+        expect(coinCombination(4)).to.equal("4 Penny");
+    });
+
 
 });

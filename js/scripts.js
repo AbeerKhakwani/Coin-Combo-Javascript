@@ -1,8 +1,9 @@
 var coinCombination = function(input){
 
     var returnArray=[];
+    input =parseInt(input);
 
-    if (input != 0){
+    if ((input != 0)&& (input > 24)){
         var quarter = parseInt(input/25);
         returnArray.push(quarter + " Quarter");
         input = input % 25;
