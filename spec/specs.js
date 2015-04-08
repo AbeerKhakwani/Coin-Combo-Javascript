@@ -17,7 +17,7 @@ describe('coinCombination', function() {
         expect(coinCombination(.60)).to.equal("2 Quarters 1 Dime");
     });
 
-    it("Takes in value of 68 and returns 2 Quarter 1 Dime 1 Nickel 3 Pennys", function(){
+    it("Takes in value of 68 and returns 2 Quarter 1 Dime 1 Nickel 3 Pennies", function(){
         expect(coinCombination(.68)).to.equal("2 Quarters 1 Dime 1 Nickel 3 Pennies");
     });
 
